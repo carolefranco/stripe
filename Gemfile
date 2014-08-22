@@ -3,7 +3,6 @@ source 'https://rubygems.org'
 # Require a specific ruby version
 ruby "2.1.2"
 
-
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.1'
 
@@ -16,6 +15,10 @@ gem "pg", group: :production
 
 #Add 12 factor to heroku
 gem "rails_12factor", group: :production
+
+#Bootstrap for improving look & feel
+
+gem "bootstrap-sass"
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
